@@ -7,4 +7,4 @@ before_install:
 script:
     - pytest --cov=./
 after_success:
-    - codecov
+    - codecov -t e575a331-3152-45cb-bc4e-5fc0290041b4
